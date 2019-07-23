@@ -1,0 +1,139 @@
+*{
+	margin:0;
+	padding:0;
+}
+@media (max-width: 768px){
+	.header {
+    width: 100%;
+	}
+	
+	nav.menu{
+		width: 100%;
+	}
+	
+	nav.menu ul li{
+		float: none;
+		list-style: none;
+	}
+	
+	nav.menu ul li a:hover{
+		background-color: tomato;
+	}
+	div.area-title{
+		width: 100%;
+	}
+	
+	div.logo{
+		width: 100%;
+	}
+	div.banner{
+		width: 90%;
+		padding: 100px;
+	}
+	div.about{
+		width: 100%;
+	}
+	div.about-inner1{
+		width: 100%;
+		padding: 0px 180px;
+	}
+	div.about-left{
+		width: 100%;
+		padding: 0px 80px;
+	}
+	div.about-right{
+		width: 100%;
+		padding: 0px 80px;
+	}
+	div.academic{
+		width: 100%;
+		padding: 0px 100px;
+	}
+	div.academic-left{
+		width: 100%;
+	}
+	div.academic-left-left{
+		width: 100%;
+	}
+	div.academic-left-right{
+		width: 100%;
+	}
+	div.athletics{
+		width: 100%;
+	}
+	div.athletics-right{
+		width: 100%;
+	}
+	div.sponsors{
+		width: 100%;
+	}
+	div.sponsors-inner{
+		width: 100%;
+		padding: 0px 150px;
+	}
+	div.sponsors1{
+		width: 100%;
+	}
+	div.athletics-left{
+		width: 100%;
+		padding: 0px 100px;
+	}
+	div.gallery{
+		width: 100%;
+	}
+	div.gallery-inner{
+		width: 40%;
+		padding: 0px 100px;
+	}
+	div.blog{
+		width: 100%;
+	}
+	div.blog-left{
+		width: 100%;
+		padding: 0px 100px;
+	}
+	div.blog-inner{
+		width: 100%;
+	}
+	div.blog-info{
+		width: 100%;
+	}
+	div.contact{
+		width: 100%;
+	}
+	div.contact-left{
+		width: 100%;
+		padding: 0px 100px;
+	}
+	div.google-map{
+		width: 100%;
+		padding: 0px 100px;
+	}
+	div.contact-form{
+		width: 100%;
+	}
+	div.contact-right{
+		width: 100%;
+		padding: 0px 100px;
+	}
+	div.subscribe{
+		width: 100%;
+		padding: 0px 100px;
+	}
+	div.form{
+		width: 100%;
+	}
+	.footer{
+		width: 100%
+	}
+	div.footer-inner{
+		width: 100%
+	}	
+	div.footer-content{
+		width: 100%
+	}
+	div.copyright{
+		width: 100%;
+	}
+}
+

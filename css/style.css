@@ -1,0 +1,702 @@
+/* Common CSS */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html, body{
+    height:100%
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.pt-100{
+    padding-top:100px;
+}
+.pb-100{
+    padding-bottom:50px;
+}
+.fix{
+    overflow:hidden;
+}
+.boundary{
+    width:1200px;
+    margin:0 auto;
+}
+.banner-area {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    color: snow;
+}
+.banner-area::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: -1;
+    opacity: .85;
+}
+.banner-content {
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 20px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.banner-content h1 {
+	text-transform: uppercase;
+	font-size: 45px;
+	letter-spacing: 11px;
+	margin: 20px 0;
+}
+.banner-content a {
+	margin: 0 12px;
+	margin-top: 25px;
+	font-size: 25px;
+	font-weight: bolder;
+}
+a.border-btn {
+	background-color: #0f2d45;
+	text-transform: capitalize;
+	text-decoration: none;
+	border: 3px solid #07285380;
+	padding: 5px 10px;
+	display: inline-block;
+	color: white;
+}
+a.box-btn {
+	color: #0f2d45;
+	text-transform: capitalize;
+	text-decoration: none;
+	background-color: snow;
+	padding: 5px 11px;
+	display: inline-block;
+}
+.header-area {
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	background-color: #0f2d45;
+}
+.header-area a {
+	color: snow;
+	text-transform: capitalize;
+	font-size: 15px;
+}
+.logo {
+	float: left;
+	width: 150px;
+	margin-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.logo a{
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Righteous', cursive;
+}
+.menu {
+  float: right;
+  width: 1030px;
+}
+.menu ul {
+  text-align: right;
+}
+.menu ul li {
+  display: inline-block;
+  position: relative;
+}
+.menu ul li a {
+	padding: 15px 5px;
+	display: inline-block;
+	background-color: None;
+	margin: 3px 16px;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+.area-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.area-title p {
+	text-transform: capitalize;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+}
+.area-title h4 {
+  font-weight: 300;
+}
+.area-title h2 {
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: 600;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	color: #f50639;
+	letter-spacing: 3px;
+}
+.area-title h2::before {
+	position: absolute;
+	content: "";
+	width: 55px;
+	height: 3px;
+	background-color: #0f2d45;
+	left: 35%;
+	bottom: -1px;
+}
+.area-title h2::after {
+	position: absolute;
+	content: "";
+	width: 55px;
+	height: 3px;
+	background-color: darkgray;
+	bottom: -1px;
+	left: 55%;
+	margin-left: -39px;
+}
+/*about area design */
+.about-area {
+}
+.about-inner1 {
+	float: left;
+	width: 350px;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #0000001a;
+	padding: 10px;
+	border-radius: 3%;
+	transition: 0.9s;
+}
+.about-inner1:hover{
+	transform:translateY(20px);
+}
+.about-inner1 h4 {
+	text-transform: capitalize;
+	font-weight: bold;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.about-inner1 p {
+  margin-bottom: 10px;
+  line-height: 25px;
+  text-align: justify;
+}
+.about-inner1 i {
+	font-size: 40px;
+	color: #0f2d45;
+	margin: 15px;
+}
+.about-inner1 img{}
+.about-left {
+	float: left;
+	width: 780px;
+	margin-right: 20px;
+	border-bottom: 1px solid beige;
+}
+
+.about-left p {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: initial;
+	margin-top: 15px;
+	line-height: 25px;
+	text-transform: initial;
+	text-align: justify;
+}
+.about-left-inner {
+	width: 185px;
+	float: left;
+	margin: 15px;
+}
+.about-left-inner img {
+	width: 122px;
+	height: 100px;
+	border-radius: 50%;
+	transition: 0.7s;
+}
+.about-left h4{}
+.about-left-inner p{}
+.about-right {
+	float: right;
+	width: 350px;
+	margin-right: 20px;
+	border: 1px solid beige;
+	padding: 20px;
+}
+.about-right p {
+	border-bottom: 1px solid beige;
+	line-height: 30px;
+	font-size: 15px;
+}
+.about-right h4 {
+	text-align: left;
+	text-transform: capitalize;
+	font-size: 26px;
+	font-weight: lighter;
+	color: #0f2d45;
+}
+.about-right ul {
+	list-style: none;
+	padding: 10px 0px;
+}
+.about-right ul li {
+	margin-bottom: 18px;
+}
+.about-right ul li a {
+	font-size: 18px;
+	text-transform: capitalize;
+	text-decoration: none;
+	color: #00000080;
+	font-weight: lighter;
+}
+.about-right ul li i {
+	font-size: 18px;
+	color: #0f2d45;
+}
+/* academic area design */
+.academic-left {
+	float: left;
+	width: 750px;
+	margin-right: 40px;
+}
+.academic-left-left {
+	float: left;
+	width: 300px;
+	margin-right: 10px;
+}
+.academic-left-left img {
+	width: 290px;
+	height: 230px;
+	padding: 5px;
+	transition: 0.9s;
+}
+.academic-left-left img:hover{
+	transform: scale(1.1);
+}
+.academic-left-right {
+	width: 415px;
+	float: right;
+	margin: 10px 12px;
+}
+.academic-left-right h2 {
+	text-transform: uppercase;
+	font-weight: lighter;
+	padding-bottom: 10px;
+	font-size: 21px;
+	border-bottom: 1px solid beige;
+	color: #0f2d45;
+}
+.academic-left-right h2 span{
+	font-weight: bold;
+}
+.academic-left-right p, .academic-right-apply p, .academic-right-info p, .blog-inner p, .athletics-left p, .athletics-right p, .contact-right p, .contact-left p {
+	text-align: justify;
+	text-transform: capitalize;
+	line-height: 25px;
+	padding: 7px 5px;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.academic-left-right i {
+	font-size: 21px;
+	border: 1px solid beige;
+	padding: 5px 10px;
+	color: #1b1517b3;
+	margin-bottom: 10px;
+}
+.academic-right {
+	float: right;
+	width: 370px;
+	margin-right: 10px;
+	border: 1px solid #e7d7c3;
+	padding: 10px;
+}
+.academic-right-tour {
+	width: 315px;
+	border: 1px solid #0f2d45;
+	background-color: #0f2d45;
+	color: snow;
+	padding: 10px 30px;
+	height: 355px;
+}
+.academic-right-tour i {
+	text-align: center;
+	font-size: 80px;	
+}
+.academic-right-tour h3 {
+	padding: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 21px;
+	font-weight: lighter;
+}
+.academic-right-tour p {
+	padding: 6px;
+	line-height: 22px;
+}
+.academic-right-apply {
+	margin: 10px 0;
+}
+.academic-right-apply h4 {
+	text-transform: capitalize;
+	font-size: 25px;
+	margin: 15px 5px 0 0;
+	color: #0f2d45;
+	border-bottom: 1px solid beige;
+}
+.academic-right-info{}
+.academic-right-info i{}
+.academic-right-info p span {
+	color: #0f2d45;
+	padding: 0 10px;
+}
+/* athletics area design */
+.athletics-left {
+	float: left;
+	width: 600px;
+	height: 100%;
+}
+.athletics-left img {
+	width: 100%;
+	height: 460px;
+}
+
+.athletics-left p span {
+	font-size: 20px;
+	font-style: italic;
+	color: #053660;
+	font-weight: lighter;
+	padding: 5px;
+	margin: 5px;
+}
+.athletics-right {
+	float: right;
+	width: 600px;
+	height: 100%;
+	padding: 50px;
+	/* background-color: #e6e6e64d; */
+}
+.athletics-right i {
+	font-size: 45px;
+	font-style: italic;
+	color: #053660;
+}
+.athletics-right h1 {
+	border-top: 4px solid #053660;
+	padding: 20px 0;
+	font-size: 30px;
+	text-transform: capitalize;
+}
+.athletics-right h2 {
+	text-align: left;
+	text-transform: capitalize;
+	padding: 15px;
+	font-style: oblique;
+	font-weight: lighter;
+	font-size: 27px;
+}
+.athletics-right h4 {
+	text-align: left;
+	text-transform: uppercase;
+	padding: 15px;
+	font-size: 18px;
+	font-weight: lighter;
+}
+.athletics-right a, .athletics-left a, .gallery a {
+	background-color: #053660;
+	padding: 13px;
+	color: snow;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+.athletics-right a i {
+	font-size: 20px;
+	color: white;
+	padding: 22px 0px;
+}
+.sponsors-area {
+	background-color: #0f2d45;
+	color: snow;
+}
+.sponsors-inner{}
+.sponsors1 {
+	width: 285px;
+	float: left;
+	transition: 0.9s;
+}
+.sponsors1:hover{
+	transform:rotate(360deg);
+}
+.sponsors1 h4 {
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 15px;
+	font-weight: lighter;
+}
+.sponsors1 i {
+	font-size: 45px;
+}
+/* gallery area design */
+.gallery-inner {
+	float: left;
+	width: 275px;
+	margin-right: 15px;
+}
+.gallery-inner:nth-child:last-child{
+	margin-right: 0px;
+}
+.gallery-inner img {
+	width: 285px;
+	height: 250px;
+	transition: 0.9s
+}
+.gallery-inner img:hover, .about-left-inner img:hover{
+	transform:scale(1.1);
+}
+/* blog area design */
+.blog{}
+.blog-left {
+	width: 700px;
+	margin-right: 20px;
+}
+.blog-inner{}
+.blog-inner img {
+	width: 100%;
+	height: 520px;
+}
+ .about-left h2, .athletics-left h2, .blog-inner h4, .blog-menu h4, .blog-widget h4{
+	text-align: left;
+	font-size: 23px;
+	margin: 20px 10px 0 0;
+	color: #124084;
+	text-transform: capitalize;
+}
+.blog-inner a{
+	background-color: #113c60;
+	color: white;
+	padding: 9px;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+.blog-info {
+	text-align: center;
+	background-color: #07324b;
+	padding: 7px;
+	margin: 0 0px;
+	margin-top: -7px;
+	z-index: 5;
+	position: relative;
+	border: 1px solid transparent;
+}
+.blog-info a {
+	color: snow;
+	margin: 0 30px;
+}
+.blog-right {
+	float: right;
+	width: 320px;
+	margin-right: 20px;
+	position: absolute;
+	left: 70%;
+	margin-top: -2680px;
+}
+.blog-search{}
+.blog-search input {
+	width: 190px;
+	height: 40px;
+	padding: 10px;
+	font-size: 16px;
+	text-transform: capitalize;
+}
+.blog-search i {
+	font-size: 16px;
+	border: 1px solid #80808080;
+	padding: 10px;
+	margin-left: -5px;
+}
+.blog-menu {
+	width: 250px;
+}
+.blog-menu ul, .blog-widget ul{}
+.blog-menu ul li, .blog-widget ul li {
+	background-color: #d8bcbc1a;
+	padding: 10px;
+	margin: 15px 5px;
+}
+.blog-menu ul li a, .blog-widget ul li a {
+	text-transform: capitalize;
+	color: navy;
+}
+.blog-widget{}
+.blog-widget ul li i {
+	font-size: 20px;
+	padding: 0 7px;
+	color: #27373f;
+}
+/* subscribe area */
+.subscribe-area {
+	padding: 50px 0px;
+	margin-bottom: 100px;
+}
+.subscribe-area h2 {
+	text-align: center;
+	margin-top: 100px;
+	font-size: 30px;
+}
+.form {
+  text-align: center;
+  width: 600px;
+  margin: 20px auto;
+  position: relative;
+}
+.form input[type="text"] {
+  width: 100%;
+  border: 1px solid #0f2d45;
+  padding: 10px;
+  text-transform: capitalize;
+  font-size: 20px;
+  position: relative;
+}
+.form input[type="submit"] {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px 20px;
+  background-color: #0f2d45;
+  color: snow;
+  font-size: 20px;
+  border: 1px solid firebrick;
+  text-transform: capitalize;
+}
+/* contact area design */
+.google-map{}
+.google-map iframe {
+	width: 100%;
+	height: 400px;
+	border: 1px solid snow;
+}
+.contact-area {
+	background-color: #cbc8c81a;
+}
+.contact-left{
+	background-color: white;
+	float: left;
+	width: 680px;
+	margin: auto 20px;
+	height: 100%;
+}
+.contact-form {
+	margin: auto 20px;
+}
+}
+.contact-form i {
+	font-size: 24px;
+	padding: 12px;
+}
+.contact-form p {
+	margin: 5px;
+	text-transform: capitalize;
+}
+.contact-left h2, .contact-right h2 {
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 30px;
+	color: #171760;
+	margin: 10px;
+}
+.contact-form form{}
+.contact-form form input,.contact-form form textarea {
+	width: 100%;
+	padding: 13px;
+	margin: 5px;
+	text-transform: capitalize;
+	border: 1px solid #0003;
+}
+.contact-form input[type="submit"] {
+	width: 100%;
+	font-size: 15px;
+	background-color: #1a2b53;
+	color: white;
+}
+.contact-right {
+	float: right;
+	width: 330px;
+	height: 720px;
+	margin-right: 20px;
+}
+.contact-right i {
+	padding: 6px;
+	font-size: 23px;
+	color: #fff;
+}
+/* footer area design */
+.footer-area {
+	color: snow;
+	background-color: #000000b3;
+}
+.footer-inner {
+	width: 280px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.footer-inner h4 {
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 19px;
+	margin: 15px 0;
+	border-bottom: 1px solid snow;
+}
+.footer-content {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 16px;
+	text-transform: capitalize;
+	line-height: 31px;
+}
+.footer-content i{
+	font-size: 100px;
+}
+.footer-content a{
+	color: snow;
+}
+.copyright{
+	border-top: 1px solid snow;
+}
+.copyright p {
+	text-align: center;
+	text-transform: capitalize;
+	color: snow;
+	font-size: 15px;
+	padding-bottom: 20px;
+	padding-top: 7px;
+	margin: 20px;
+}
+.menu ul li a:hover, .athletics-left a:hover, .athletics-right a:hover{
+	background-color: white;
+	color:  #1a2b53;
+}
+.about-right ul li:hover, .academic-left-right i:hover{
+	color: white;
+	background-color:  #1a2b53;
+}
